@@ -68,7 +68,7 @@ $(function () {
 
                 // 登录成功后把token保存到本地存储
                 localStorage.setItem('token', res.token);
-               //  跳转到后台主页
+            //    //  跳转到后台主页
                 location.href = '/index.html';
 
             }
